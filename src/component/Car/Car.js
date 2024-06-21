@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Car.css"
 
-const Car = ({ bgImg, title, dec }) => {
+const Car = ({ id,bgImg, title, dec }) => {
     return (
         <>
-            <div className='carSection' style={{ backgroundImage: `url("/images/${bgImg}")`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className='carSection' id={id} style={{ backgroundImage: `url("/images/${bgImg}")`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <div className='carModel'>
                     <div className='model' data-aos="fade">{title}</div>
                     <p  className='desc' data-aos="fade">{dec}</p>
