@@ -1,0 +1,63 @@
+/* car code starts */
+
+.carSection{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .carModel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  
+  }
+  
+  .model{
+    font-size: 40px;
+    z-index: 0;
+  }
+  
+  .buttonGrp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .desc{
+    color: #171a20;
+    font-weight: 300;
+
+  }
+  
+  .buttonGrp .btn1{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    border: none;
+  
+  }
+  
+  .buttonGrp .btn2{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    border: none;
+
+  
+  }
